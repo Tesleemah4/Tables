@@ -1,0 +1,55 @@
+html,body{
+    background-color: black;
+    color: white;
+    margin: auto;
+    text-align: inherit;
+}
+
+
+header{
+    text-align: center;
+}
+.ME{ color: yellow;
+    gap:2rem;
+
+}
+
+.line{
+ border-bottom: 2px solid yellow;
+}
+.main{
+    display:flex;
+    gap: 1rem;
+    /* justify-content: center;
+    align-items: center; */
+    margin:auto;
+    padding: 2rem;
+}
+.text{
+    font-size:small;
+}
+button{
+    color:white;
+    background-color: yellow;
+    text-align: center;
+    font-size: 10px;
+    font-weight:800;
+    padding:0.5rem;
+}
+
+.profile {
+    /* width: 100%; */
+    width:190px;
+    height:190px;
+    /* justify-items: center;
+    align-items: center; */
+    display:block;
+    margin:auto;
+    padding:1px;
+    border: 3px solid yellow;
+    border-radius:0%;
+    margin-right:20px;
+  }
+  .name{
+    color: yellow;
+  }
